@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você e seus amigos encontram uma antiga casa abandonada durante uma noite de neblina. Há uma história de que a casa é assombrada por um espírito vingativo. Vocês decidem explorar. Onde você começa?</p>
+            <button class="btn-proximo" data-proximo="1">Entrar pela porta principal</button>
+            <button class="btn-proximo" data-proximo="2">Ir para o porão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra pela porta principal e encontra um hall escuro. Há duas portas: uma para a direita e outra para a esquerda.</p>
+            <button class="btn-proximo" data-proximo="3">Abrir a porta da direita</button>
+            <button class="btn-proximo" data-proximo="4">Abrir a porta da esquerda</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No porão, você encontra um candelabro antigo e uma escada que leva a um sótão escuro. O ambiente está gelado e você pode ouvir sussurros distantes.</p>
+            <button class="btn-proximo" data-proximo="5">Subir para o sótão</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o porão</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao abrir a porta da direita, você se depara com um quarto cheio de móveis cobertos de poeira e uma velha foto emoldurada na parede. Algo parece estranho com a foto.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar a foto</button>
+            <button class="btn-proximo" data-proximo="8">Sair do quarto e voltar ao hall</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Ao abrir a porta da esquerda, você entra em um quarto que parece ter sido um escritório. Há uma mesa com uma velha máquina de escrever e vários papéis espalhados.</p>
+            <button class="btn-proximo" data-proximo="9">Investigar a máquina de escrever</button>
+            <button class="btn-proximo" data-proximo="10">Voltar ao hall</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No sótão, você encontra uma caixa antiga coberta de poeira. Ao abri-la, descobre objetos pessoais e uma carta escrita à mão. A carta fala sobre uma tragédia ocorrida na casa.</p>
+            <button class="btn-proximo" data-proximo="11">Ler a carta</button>
+            <button class="btn-proximo" data-proximo="12">Explorar o sótão mais a fundo</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Explorando o porão, você encontra uma sala secreta com símbolos estranhos nas paredes e um antigo altar. Algo parece estar se movendo nas sombras.</p>
+            <button class="btn-proximo" data-proximo="13">Investigar o altar</button>
+            <button class="btn-proximo" data-proximo="14">Sair do porão e voltar para o hall</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>A foto na parede mostra uma família que viveu na casa há muito tempo. De repente, você percebe que um dos membros da família está na sala com você.</p>
+            <button class="btn-proximo" data-proximo="15">Tentar conversar</button>
+            <button class="btn-proximo" data-proximo="16">Fugir do quarto</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Voltando ao hall, você percebe que algo mudou na casa. A porta da frente está agora trancada e você sente uma presença estranha.</p>
+            <button class="btn-proximo" data-proximo="17">Tentar abrir a porta</button>
+            <button class="btn-proximo" data-proximo="18">Explorar outra parte da casa</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>A máquina de escrever começa a digitar sozinha, e a mensagem revela detalhes horríveis sobre o espírito que assombra a casa.</p>
+            <button class="btn-proximo" data-proximo="19">Ler a mensagem</button>
+            <button class="btn-proximo" data-proximo="20">Sair do escritório</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Voltando ao hall, você percebe que a casa está começando a se transformar, com os móveis se movendo sozinhos e um som arrepiante vindo de todos os lados.</p>
+            <button class="btn-proximo" data-proximo="17">Tentar abrir a porta</button>
+            <button class="btn-proximo" data-proximo="18">Explorar outra parte da casa</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>A carta revela que uma tragédia aconteceu na casa há muitos anos, envolvendo um espírito que busca vingança. Agora você sabe que precisa encontrar uma maneira de sair.</p>
+            <button class="btn-proximo" data-proximo="21">Procurar uma saída</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Explorando o sótão mais a fundo, você encontra uma escada secreta que leva a um quarto escondido. Lá, você descobre uma maneira de escapar da casa.</p>
+            <button class="btn-proximo" data-proximo="21">Sair da casa</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Investigando o altar, você ativa uma armadilha que libera um espírito vingativo. A casa começa a se transformar e se torna um labirinto mortal.</p>
+            <button class="btn-proximo" data-proximo="22">Tentar encontrar a saída</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Saindo do porão, você percebe que a casa está se tornando cada vez mais opressiva. A sensação de ser observado é constante.</p>
+            <button class="btn-proximo" data-proximo="18">Explorar outra parte da casa</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>O membro da família não fala, mas você percebe uma expressão de tristeza em seu rosto. Ele aponta para uma porta escondida.</p>
+            <button class="btn-proximo" data-proximo="23">Abrir a porta escondida</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Fugindo do quarto, você se perde na casa. Os corredores parecem nunca acabar e você é consumido pela escuridão.</p>
+            <p>Você nunca consegue escapar da casa.</p>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Você tenta abrir a porta, mas está trancada e não há saída visível. O som da casa se transformando se intensifica.</p>
+            <button class="btn-proximo" data-proximo="22">Tentar encontrar a saída</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Explorando outra parte da casa, você encontra uma antiga biblioteca. Há um livro que pode conter a chave para a sua sobrevivência.</p>
+            <button class="btn-proximo" data-proximo="24">Ler o livro</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Lendo a mensagem da máquina de escrever, você descobre um ritual que pode apaziguar o espírito. Você deve encontrar os itens necessários para o ritual.</p>
+            <button class="btn-proximo" data-proximo="25">Procurar os itens</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Saindo do escritório, você percebe que a casa está agora cheia de sombras e sussurros. A saída parece cada vez mais distante.</p>
+            <button class="btn-proximo" data-proximo="22">Tentar encontrar a saída</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Você encontra uma maneira de escapar da casa e volta para a segurança. Apesar do susto, você conseguiu sair da casa assombrada.</p>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>Você se perde na casa e acaba sendo capturado pelo espírito. A casa continua assombrada, e você se torna parte da história de terror.</p>
+        </div>
+        <div class="passo" id="passo-23">
+            <p>A porta escondida leva a uma sala secreta onde você encontra um diário revelador. O diário conta a verdade sobre o espírito e como apaziguá-lo.</p>
+            <button class="btn-proximo" data-proximo="25">Usar o conhecimento do diário</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <p>O livro revela um caminho secreto para a saída. Com o conhecimento do livro, você consegue escapar da casa assombrada.</p>
+        </div>
+        <div class="passo" id="passo-25">
+            <p>Usando o conhecimento do diário ou os itens do ritual, você consegue apaziguar o espírito e encontrar uma saída segura da casa. Finalmente, você escapa e pode voltar para casa.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
